@@ -74,6 +74,7 @@ uint32_t lv_tick_get(void)
 
     return result;
 #else
+    extern uint32_t custom_tick_get(void);
     return LV_TICK_CUSTOM_SYS_TIME_EXPR;
 #endif
 }

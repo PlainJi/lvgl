@@ -157,7 +157,8 @@ extern "C" {
 #endif
 
 #if !defined LV_SYMBOL_DOWN
-#define LV_SYMBOL_DOWN            "\xEF\x81\xB8" /*61560, 0xF078*/
+//#define LV_SYMBOL_DOWN            "\xEF\x81\xB8" /*61560, 0xF078*/
+#define LV_SYMBOL_DOWN            "\xEF\xB9\x80" /*65088, 0xFE40*/
 #endif
 
 #if !defined LV_SYMBOL_LOOP
